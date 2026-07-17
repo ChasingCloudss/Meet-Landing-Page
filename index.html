@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website for Meet, a modern group chat application.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+<body>
+  <header>
+    <img src="./starter-code/assets/logo.svg" alt="Meet logo">
+  </header>
+  <main>
+    <section class="hero-section flex">
+        <!-- make the images adjust to different screen sizes -->
+      <picture class="hero-left">
+        <source media="(min-width: 1024px)" srcset="./starter-code\assets\desktop\image-hero-left.png">
+        <source media="(min-width: 475px)" srcset="./starter-code\assets\tablet\image-hero.png">
+        <img src="./Images/image-hero.jpg">
+      </picture>
+      <div class="hero-content flex">
+        <h1 class="font-black">Group Chat for Everyone</h1>
+        <p>Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+        <div class="hero-button flex">
+          <button class="button-cyan btn">Download <span>v1.3</span></button>
+          <button class="button-purple btn">What is it?</button>
+        </div>
+      </div>
+      <picture class="hero-right">
+        <source media="(min-width: 1024px)" srcset="./starter-code\assets\desktop\image-hero-right.png">
+        <img src="" alt=".">
+      </picture>
+    </section>
+    <section class="content-section flex">
+      <img src="./Images/number.svg" alt="">
+      <ul class="content-image">
+        <li><img src="./starter-code/assets/desktop/image-woman-in-videocall.jpg" alt=""></li>
+        <li><img src="./starter-code/assets/desktop/image-women-videochatting.jpg" alt=""></li>
+        <li><img src="./starter-code/assets/desktop/image-men-in-meeting.jpg" alt=""></li>
+        <li><img src="./starter-code/assets/desktop/image-man-texting.jpg" alt=""></li>
+      </ul>
+      <div class="content-text flex">
+        <div class="title flex">
+          <p class="title-tag font-black">BUILT FOR MODERN USE</p>
+        <h2 class="font-black">Smarter meetings, all in one place</h2>
+        </div>
+        <p>Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="./Images/number (1).svg" alt="">
+    <section class="footer-section flex">
+      <div class="footer-content flex">
+        <h2 class="font-black">Experience more together</h2>
+        <p>Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        <button class="button-purple btn last-btn">Download <span>v1.3</span></button>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
