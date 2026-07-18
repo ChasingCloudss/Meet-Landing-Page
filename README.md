@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://meet-landing-page23.netlify.app/](https://meet-landing-page23.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-meet-landing-page-using-css-grid-and-mobile-first-workflow-ciNydrf9ED](https://www.frontendmentor.io/solutions/responsive-meet-landing-page-using-css-grid-and-mobile-first-workflow-ciNydrf9ED)
 - Live Site URL: [https://meet-landing-page23.netlify.app/](https://meet-landing-page23.netlify.app/)
 
 ## My process
